@@ -16,6 +16,10 @@ const routes = [
   {
     path: '/project/:id',
     component: () => import('../views/ProjectDetailView.vue')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    component: () => import('../views/NotFoundView.vue')
   }
 ] // Sense rutes per ara
 
