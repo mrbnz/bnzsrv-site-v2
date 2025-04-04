@@ -33,3 +33,4 @@ node_modules/
 vendor/
 dist/
 .env
+src/assets/img
